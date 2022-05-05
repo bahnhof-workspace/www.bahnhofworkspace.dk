@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^bahnhofworkspace.dk [NC]
+RewriteRule ^(.*)$ http://www.bahnhofworkspace.dk/$1 [L,R=301]
